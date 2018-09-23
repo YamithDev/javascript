@@ -3,10 +3,23 @@
 <head>
 	<meta charset="UTF-8">
 	<title>JavaScript</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.28.1/sweetalert2.css">
 </head>
 <body>
-	<label id="ver"></label>
-
+	<div class="container mt-5">
+		<div class="row">
+			<label id="ver"></label>
+		</div>
+		<div class="row">
+				<button class="btn btn-primary" onclick="imprimir()" style="margin-right: 10px;">Imprimir</button>
+				<button class="btn btn-success" onclick="estrcutura()" style="margin-right: 10px;">Estructura</button>
+		</div>	
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.28.1/sweetalert2.all.js"></script>
 	<script src="js/app.js"></script>
+	<script src="js/async.js"></script>
+	<script src="js/estructura.js"></script>
 </body>
 </html>
